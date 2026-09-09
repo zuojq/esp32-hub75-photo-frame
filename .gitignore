@@ -1,0 +1,21 @@
+# Ignore the "build" directory created by esp-idf
+build
+
+# Ignore the user-customized project configuration file.
+# (https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/kconfig.html)
+sdkconfig*
+# Unignore the default project configuration file.
+!sdkconfig.defaults
+
+# Ignore IDE configs
+.vscode
+
+dependencies.lock
+
+clockwise.si4project/
+.DS_Store
+
+web/firmware/myclockwise_merge_esp32.bin
+
+.cache
+
